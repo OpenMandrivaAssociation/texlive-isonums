@@ -1,3 +1,9 @@
+# revision 17362
+# category Package
+# catalog-ctan /macros/latex/contrib/isonums
+# catalog-date 2010-03-09 13:05:51 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-isonums
 Version:	1.0
 Release:	1
@@ -42,6 +48,7 @@ text source.
 %{_texmfdistdir}/tex/latex/isonums/isonums.sty
 %doc %{_texmfdistdir}/doc/latex/isonums/isonums.pdf
 %doc %{_texmfdistdir}/doc/latex/isonums/isonums.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ text source.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
