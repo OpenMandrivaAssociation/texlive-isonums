@@ -1,6 +1,6 @@
 Name:		texlive-isonums
 Version:	17362
-Release:	1
+Release:	2
 Summary:	Display numbers in maths mode according to ISO 31-0
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isonums
