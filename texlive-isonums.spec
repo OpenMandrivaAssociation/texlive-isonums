@@ -3,7 +3,7 @@ Version:	17362
 Release:	2
 Summary:	Display numbers in maths mode according to ISO 31-0
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isonums
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/isonums
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isonums.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isonums.doc.r%{version}.tar.xz
